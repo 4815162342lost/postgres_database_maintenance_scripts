@@ -6,7 +6,7 @@ servers="132 133"
 #copy all logs for full day if script was run at 23:59
 if [ "$hour" -eq "23" ]
    then
-   sleep 2m
+   sleep 3m
 fi
 
 #copy postgres logs to our server

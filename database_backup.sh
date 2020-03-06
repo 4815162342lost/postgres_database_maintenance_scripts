@@ -27,7 +27,7 @@ day_of_week=`date +%u`
 
 #keep backups 7 days and generate backup name
 retention_period=7
-file_name=`date +%d_%m_%Y.dump`
+file_name=`date +%Y_%m_%d.dump`
 
 #determine is now weekends or not
 if [ "$day_of_week" -eq "1" ] || [ "$day_of_week" -eq "7" ]
